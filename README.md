@@ -33,12 +33,12 @@ A real-time interactive 3D fractal generator built with TypeScript and Three.js.
 
 ## Project Structure
 
-```
+```text
 FractalEngine/
 ├── src/
 │   ├── main.ts                 # Application entry point
 │   ├── fractals/
-│   │   └── index.ts           # Fractal implementations
+│   │   └── index.ts            # Fractal implementations
 │   ├── engine/
 │   │   └── FractalEngine.ts    # Core fractal computation engine
 │   ├── renderer/
@@ -47,9 +47,9 @@ FractalEngine/
 │   │   └── UIController.ts     # Interactive UI controls
 │   └── workers/                # Web Workers (future)
 ├── index.html                  # HTML entry point
-├── vite.config.ts             # Vite build configuration
-├── tsconfig.json              # TypeScript configuration
-└── package.json               # Dependencies
+├── vite.config.ts              # Vite build configuration
+├── tsconfig.json               # TypeScript configuration
+└── package.json                # Dependencies
 ```
 
 ## Getting Started
@@ -116,6 +116,7 @@ Click "Export as Image" to download the current view as a PNG image.
 ## Core Classes
 
 ### FractalEngine
+
 Manages fractal computations and parameter handling.
 
 ```typescript
@@ -126,6 +127,7 @@ const data = engine.generateFractalData(width, height, centerX, centerY, zoom);
 ```
 
 ### FractalRenderer
+
 Handles Three.js rendering to canvas texture.
 
 ```typescript
@@ -134,6 +136,7 @@ renderer.renderFractal(engine, centerX, centerY, zoom);
 ```
 
 ### UIController
+
 Manages interactive controls and user input.
 
 ```typescript
@@ -152,18 +155,23 @@ const ui = new UIController(engine, renderer);
 ### Fractal Types
 
 #### Mandelbrot Set
+
 Classic fractal defined by the iteration: `z_{n+1} = z_n^2 + c`
 
 #### Julia Set
+
 Similar to Mandelbrot but with fixed complex parameter `c`
 
 #### Burning Ship
+
 Variation using absolute values: `z_{n+1} = |Re(z_n)|^2 - |Im(z_n)|^2 + c`
 
 #### Newton Fractal
+
 Based on Newton's method for finding roots of `z^3 - 1 = 0`
 
 #### L-System Fractals
+
 Plant-like fractals generated through string rewriting rules
 
 ## Performance Tips
@@ -209,6 +217,7 @@ Plant-like fractals generated through string rewriting rules
 ### Building for Production
 
 The build process:
+
 1. Compiles TypeScript to JavaScript
 2. Bundles with Vite
 3. Optimizes assets
@@ -223,6 +232,7 @@ MIT License - See LICENSE file for details
 ## Contributing
 
 Contributions welcome! Please ensure:
+
 - TypeScript types are correct (`npm run type-check`)
 - Code builds successfully (`npm run build`)
 - New features include documentation
@@ -233,4 +243,4 @@ For issues, questions, or suggestions, please open an issue on the GitHub reposi
 
 ---
 
-Made with ❤️ for mathematics and interactive visualization
+Made with ASCII for mathematics and interactive visualization
