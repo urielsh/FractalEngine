@@ -1,0 +1,20 @@
+{
+  "type": "EFFECT_REQUESTED",
+  "recordedAt": "2026-03-18T08:41:38.089Z",
+  "data": {
+    "effectId": "01KM01Q2H02NSMZE5K67HGZNXP",
+    "invocationKey": "fractalengine/phase3-integration:S000001:refactor-color-module",
+    "invocationHash": "27af96c31285688863630d884640ba784092a8c28183b55494c12a6cb2fcdbf9",
+    "stepId": "S000001",
+    "taskId": "refactor-color-module",
+    "kind": "agent",
+    "label": "milestone-a",
+    "taskDefRef": "tasks/01KM01Q2H02NSMZE5K67HGZNXP/task.json",
+    "labels": [
+      "milestone-a",
+      "refactoring",
+      "color-system"
+    ]
+  },
+  "checksum": "2d64c7c6e86d73aeb035f211783fe6ec21c50a764bbfca54d10f7d7860280072"
+}

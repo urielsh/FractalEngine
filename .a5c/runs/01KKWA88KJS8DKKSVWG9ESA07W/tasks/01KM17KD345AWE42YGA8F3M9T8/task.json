@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "2026.01.tasks-v1",
+  "effectId": "01KM17KD345AWE42YGA8F3M9T8",
+  "taskId": "touch-gestures",
+  "invocationKey": "fractalengine/phase3-integration:S000011:touch-gestures",
+  "stepId": "S000011",
+  "kind": "agent",
+  "title": "B2: Touch gesture support",
+  "labels": [
+    "milestone-b",
+    "mobile",
+    "touch"
+  ],
+  "io": {
+    "inputJsonPath": "tasks/01KM17KD345AWE42YGA8F3M9T8/input.json",
+    "outputJsonPath": "tasks/01KM17KD345AWE42YGA8F3M9T8/result.json"
+  },
+  "inputs": {
+    "description": "Create src/ui/TouchHandler.ts with pinch-to-zoom, single-finger pan, double-tap reset",
+    "integration": "Wire into UIController callbacks"
+  }
+}

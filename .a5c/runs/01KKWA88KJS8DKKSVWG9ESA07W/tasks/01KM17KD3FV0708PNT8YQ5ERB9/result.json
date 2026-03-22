@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "2026.01.results-v1",
+  "effectId": "01KM17KD3FV0708PNT8YQ5ERB9",
+  "taskId": "responsive-controls",
+  "invocationKey": "fractalengine/phase3-integration:S000012:responsive-controls",
+  "status": "ok",
+  "result": {
+    "filesModified": [
+      "index.html",
+      "src/ui/ControlsPanel.ts"
+    ],
+    "summary": "WCAG-compliant touch targets (44px), full-width buttons on mobile (48px), enlarged slider thumbs, drag handle for bottom drawer, CSS grid fluid layout, increased font sizes."
+  },
+  "startedAt": "2026-03-18T19:47:52.767Z",
+  "finishedAt": "2026-03-18T19:47:52.767Z",
+  "value": {
+    "filesModified": [
+      "index.html",
+      "src/ui/ControlsPanel.ts"
+    ],
+    "summary": "WCAG-compliant touch targets (44px), full-width buttons on mobile (48px), enlarged slider thumbs, drag handle for bottom drawer, CSS grid fluid layout, increased font sizes."
+  }
+}

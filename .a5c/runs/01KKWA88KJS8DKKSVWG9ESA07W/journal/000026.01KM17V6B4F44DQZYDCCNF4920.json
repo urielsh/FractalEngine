@@ -1,0 +1,20 @@
+{
+  "type": "EFFECT_REQUESTED",
+  "recordedAt": "2026-03-18T19:47:58.948Z",
+  "data": {
+    "effectId": "01KM17V6AXQCAD8F6A79QPDRAK",
+    "invocationKey": "fractalengine/phase3-integration:S000013:viewport-resolution",
+    "invocationHash": "f2e1d7aaa7ec265f287e38da8ea3c234829ce98d5a99434cfd3fd84cd116257e",
+    "stepId": "S000013",
+    "taskId": "viewport-resolution",
+    "kind": "agent",
+    "label": "milestone-b",
+    "taskDefRef": "tasks/01KM17V6AXQCAD8F6A79QPDRAK/task.json",
+    "labels": [
+      "milestone-b",
+      "mobile",
+      "resolution"
+    ]
+  },
+  "checksum": "8f5e3d9603242f057633ae9695cb78edcca0e372711ae4c8164be36a63ab83b4"
+}

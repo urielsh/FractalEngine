@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "2026.01.tasks-v1",
+  "effectId": "01KM16ZBEPR6X4AN60VH21WHDK",
+  "taskId": "verify-milestone",
+  "invocationKey": "fractalengine/phase3-integration:S000007:verify-milestone",
+  "stepId": "S000007",
+  "kind": "agent",
+  "title": "Verify milestone A: Clean Code Refactoring",
+  "labels": [
+    "milestone-A",
+    "verification"
+  ],
+  "io": {
+    "inputJsonPath": "tasks/01KM16ZBEPR6X4AN60VH21WHDK/input.json",
+    "outputJsonPath": "tasks/01KM16ZBEPR6X4AN60VH21WHDK/result.json"
+  },
+  "inputs": {
+    "expectedMinTests": 42,
+    "milestone": "A",
+    "milestoneName": "Clean Code Refactoring",
+    "tasks": [
+      {
+        "filesCreated": [
+          "src/colors/colorMapping.ts",
+          "src/__tests__/colorMapping.test.ts"
+        ],
+        "filesModified": [
+          "src/colors/ColorScheme.ts",
+          "src/workers/fractal.worker.ts"
+        ],
+        "summary": "Extracted duplicated color mapping logic into shared pure-function module. ColorScheme.ts delegates to imported functions. fractal.worker.ts reduced from 103 to 51 lines. 45 tests pass, zero type errors.",
+        "testsPassed": true,
+        "typeCheckPassed": true
+      },
+      {
+        "filesCreated": [
+          "src/fractals/Fractal.ts",
+          "src/fractals/MandelbrotSet.ts",
+          "src/fractals/JuliaSet.ts",
+          "src/fractals/BurningShip.ts",
+          "src/fractals/NewtonFractal.ts",
+          "src/fractals/LSystemFractal.ts"
+        ],
+        "filesModified": [
+          "src/fractals/index.ts"
+        ],
+        "summary": "Split monolithic index.ts into 6 individual files with barrel re-export. All 45 tests pass, zero type errors.",
+        "testsPassed": true,
+        "typeCheckPassed": true
+      },
+      {
+        "filesCreated": [
+          "src/ui/ControlsPanel.ts",
+          "src/ui/EventBindings.ts",
+          "src/__tests__/ui.test.ts"
+        ],
+        "filesModified": [
+          "src/ui/UIController.ts"
+        ],
+        "summary": "Split UIController into 3 modules. ControlsPanel (73 lines), EventBindings (98 lines), slim UIController (106 lines). 12 new tests added. All tests pass.",
+        "testsPassed": true,
+        "typeCheckPassed": true
+      },
+      {
+        "filesCreated": [
+          "src/constants.ts"
+        ],
+        "filesModified": [
+          "src/main.ts",
+          "src/renderer/FractalRenderer.ts",
+          "src/ui/UIController.ts",
+          "src/ui/EventBindings.ts",
+          "src/fractals/NewtonFractal.ts",
+          "src/fractals/LSystemFractal.ts"
+        ],
+        "summary": "Created constants.ts with 13 named constants. Replaced magic numbers across 6 files. All 57 tests pass."
+      },
+      {
+        "deadCodeRemoved": [
+          "FractalEngine.exportAsImage",
+          "FractalRenderer.exportAsImage",
+          "FractalRenderer.setZoom"
+        ],
+        "filesModified": [
+          "src/engine/FractalEngine.ts",
+          "src/renderer/FractalRenderer.ts",
+          "src/ui/UIController.ts",
+          "src/main.ts",
+          "src/workers/WorkerPool.ts"
+        ],
+        "guardsAdded": [
+          "getContext null check",
+          "toBlob null check",
+          "getElementById null check",
+          "WorkerPool error diagnostics"
+        ],
+        "summary": "Removed 3 dead methods, added 4 error handling guards. All 45 tests pass, zero type errors."
+      },
+      {
+        "filesCreated": [
+          ".github/workflows/ci.yml"
+        ],
+        "summary": "Created CI pipeline with type-check, test, and build steps. Triggers on push/PR to main. Node 20, cached node_modules."
+      }
+    ],
+    "verifyCommand": "npm run type-check && npm test"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "filesCreated": [".github/workflows/ci.yml"],
+  "summary": "Created CI pipeline with type-check, test, and build steps. Triggers on push/PR to main. Node 20, cached node_modules."
+}

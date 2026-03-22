@@ -1,0 +1,19 @@
+{
+  "type": "EFFECT_REQUESTED",
+  "recordedAt": "2026-03-18T21:23:41.324Z",
+  "data": {
+    "effectId": "01KM1DAE41VQJ6KPRQTFPDSN7B",
+    "invocationKey": "fractalengine/phase3-integration:S000024:verify-milestone",
+    "invocationHash": "91dcedaf50180bcc95017f99e93f277e9ceac483717c57a06ef555f0459b6a59",
+    "stepId": "S000024",
+    "taskId": "verify-milestone",
+    "kind": "agent",
+    "label": "verification",
+    "taskDefRef": "tasks/01KM1DAE41VQJ6KPRQTFPDSN7B/task.json",
+    "labels": [
+      "verification",
+      "milestone-C"
+    ]
+  },
+  "checksum": "2cfb2555a53f6e883892897adb529c3d65ee0531462c7958f521fc8c156bd941"
+}

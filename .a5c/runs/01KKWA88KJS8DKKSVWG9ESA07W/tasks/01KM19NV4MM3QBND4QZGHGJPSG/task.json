@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "2026.01.tasks-v1",
+  "effectId": "01KM19NV4MM3QBND4QZGHGJPSG",
+  "taskId": "color-params",
+  "invocationKey": "fractalengine/phase3-integration:S000019:color-params",
+  "stepId": "S000019",
+  "kind": "agent",
+  "title": "C1: Enhanced color parameter system",
+  "labels": [
+    "color-system",
+    "milestone-c",
+    "parameters"
+  ],
+  "io": {
+    "inputJsonPath": "tasks/01KM19NV4MM3QBND4QZGHGJPSG/input.json",
+    "outputJsonPath": "tasks/01KM19NV4MM3QBND4QZGHGJPSG/result.json"
+  },
+  "inputs": {
+    "description": "Create ColorParams interface (hueOffset, saturation, brightness, contrast, cycleSpeed), integrate into colorMapping + worker + engine + UI",
+    "modifyFiles": [
+      "src/colors/colorMapping.ts",
+      "src/workers/fractal.worker.ts",
+      "src/engine/FractalEngine.ts",
+      "src/ui/ControlsPanel.ts"
+    ],
+    "newFiles": [
+      "src/colors/ColorParams.ts"
+    ]
+  }
+}

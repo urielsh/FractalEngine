@@ -1,0 +1,20 @@
+{
+  "type": "EFFECT_REQUESTED",
+  "recordedAt": "2026-03-18T20:20:00.796Z",
+  "data": {
+    "effectId": "01KM19NV4MM3QBND4QZGHGJPSG",
+    "invocationKey": "fractalengine/phase3-integration:S000019:color-params",
+    "invocationHash": "d328fb4afa8b7f2bc4fa883e4c5f103f22f330601c5e0a0aded6b4cb98efbacc",
+    "stepId": "S000019",
+    "taskId": "color-params",
+    "kind": "agent",
+    "label": "milestone-c",
+    "taskDefRef": "tasks/01KM19NV4MM3QBND4QZGHGJPSG/task.json",
+    "labels": [
+      "milestone-c",
+      "color-system",
+      "parameters"
+    ]
+  },
+  "checksum": "feefe8f27206b41d1608ec67e55ada210a2386ce7f4984ffa224cde3f5e83d19"
+}

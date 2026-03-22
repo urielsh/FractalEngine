@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "2026.01.results-v1",
+  "effectId": "01KM17D7JD0EANH4XQRZKCP5N0",
+  "taskId": "__sdk.breakpoint",
+  "invocationKey": "fractalengine/phase3-integration:S000009:__sdk.breakpoint",
+  "status": "ok",
+  "result": {
+    "approved": true,
+    "response": "User approved Milestone A. Proceeding to Milestone B (Mobile)."
+  },
+  "startedAt": "2026-03-18T19:41:11.811Z",
+  "finishedAt": "2026-03-18T19:41:11.811Z",
+  "value": {
+    "approved": true,
+    "response": "User approved Milestone A. Proceeding to Milestone B (Mobile)."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "2026.01.results-v1",
+  "effectId": "01KM16VW31B1YXAHQ5J1KYMCDK",
+  "taskId": "create-ci-pipeline",
+  "invocationKey": "fractalengine/phase3-integration:S000006:create-ci-pipeline",
+  "status": "ok",
+  "result": {
+    "filesCreated": [
+      ".github/workflows/ci.yml"
+    ],
+    "summary": "Created CI pipeline with type-check, test, and build steps. Triggers on push/PR to main. Node 20, cached node_modules."
+  },
+  "startedAt": "2026-03-18T19:32:39.163Z",
+  "finishedAt": "2026-03-18T19:32:39.163Z",
+  "value": {
+    "filesCreated": [
+      ".github/workflows/ci.yml"
+    ],
+    "summary": "Created CI pipeline with type-check, test, and build steps. Triggers on push/PR to main. Node 20, cached node_modules."
+  }
+}

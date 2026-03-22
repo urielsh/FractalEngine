@@ -1,0 +1,5 @@
+{
+  "filesCreated": [],
+  "filesModified": ["index.html", "src/main.ts", "src/constants.ts"],
+  "summary": "Responsive layout with 3 breakpoints. Desktop sidebar, tablet right overlay, mobile bottom drawer. Toggle button, backdrop, matchMedia listener. 57 tests pass."
+}

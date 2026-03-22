@@ -1,0 +1,4 @@
+{
+  "approved": true,
+  "answer": "Approved for delivery. All 3 concerns fixed: (1) Triangle roundness formula unified — ShapeBoundary.ts exports triangleVertices/rayTriangleBoundary, DistortionLUT.ts imports them. (2) CHESS_PIECE_TYPES exported from ShapeBoundary.ts, imported in DistortionLUT.ts. (3) Main-thread fallback in FractalEngine.generateFractalData() now supports shape boundary mask and distortion modes. All 140 tests pass, 0 type errors, bundle 477KB."
+}

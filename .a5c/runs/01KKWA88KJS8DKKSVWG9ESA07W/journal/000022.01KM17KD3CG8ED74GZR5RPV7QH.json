@@ -1,0 +1,20 @@
+{
+  "type": "EFFECT_REQUESTED",
+  "recordedAt": "2026-03-18T19:43:43.724Z",
+  "data": {
+    "effectId": "01KM17KD345AWE42YGA8F3M9T8",
+    "invocationKey": "fractalengine/phase3-integration:S000011:touch-gestures",
+    "invocationHash": "e611301c38fc22f98380883e4b29bfaee9ba40d188470176e10166afc425928f",
+    "stepId": "S000011",
+    "taskId": "touch-gestures",
+    "kind": "agent",
+    "label": "milestone-b",
+    "taskDefRef": "tasks/01KM17KD345AWE42YGA8F3M9T8/task.json",
+    "labels": [
+      "milestone-b",
+      "mobile",
+      "touch"
+    ]
+  },
+  "checksum": "0cbed8a655e2f2a896ecf9f97e2afe59c3a43be1a6b3a73c5979235a9d4a8db3"
+}

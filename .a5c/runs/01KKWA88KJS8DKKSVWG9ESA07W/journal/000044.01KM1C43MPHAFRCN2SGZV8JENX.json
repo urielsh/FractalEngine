@@ -1,0 +1,20 @@
+{
+  "type": "EFFECT_REQUESTED",
+  "recordedAt": "2026-03-18T21:02:45.398Z",
+  "data": {
+    "effectId": "01KM1C43MFKSJ2AP4MAWN9HQWQ",
+    "invocationKey": "fractalengine/phase3-integration:S000022:chess-pieces",
+    "invocationHash": "45c797599a6dd70976ee2e5c6f08d758c62c0cebfc0137060b051c9b0d89c2e0",
+    "stepId": "S000022",
+    "taskId": "chess-pieces",
+    "kind": "agent",
+    "label": "milestone-c",
+    "taskDefRef": "tasks/01KM1C43MFKSJ2AP4MAWN9HQWQ/task.json",
+    "labels": [
+      "milestone-c",
+      "boundaries",
+      "chess"
+    ]
+  },
+  "checksum": "610d7c93b7978f651413eed2ac36a898d89104c81e7171b0f15d34af03a18ceb"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "2026.01.tasks-v1",
+  "effectId": "01KM19F4A0XHR9F10B4ZG14FJP",
+  "taskId": "__sdk.breakpoint",
+  "invocationKey": "fractalengine/phase3-integration:S000018:__sdk.breakpoint",
+  "stepId": "S000018",
+  "kind": "breakpoint",
+  "title": "breakpoint",
+  "metadata": {
+    "label": "breakpoint",
+    "payload": {
+      "context": {
+        "quality": 91
+      },
+      "question": "Milestone B (Mobile) complete. Quality: 91/85. Approve and proceed to Milestone C (Creative Controls)?",
+      "title": "Milestone B Review — Mobile Adaptation"
+    },
+    "requestedAt": "2026-03-18T20:16:20.800Z"
+  },
+  "inputs": {
+    "label": "breakpoint",
+    "payload": {
+      "context": {
+        "quality": 91
+      },
+      "question": "Milestone B (Mobile) complete. Quality: 91/85. Approve and proceed to Milestone C (Creative Controls)?",
+      "title": "Milestone B Review — Mobile Adaptation"
+    },
+    "requestedAt": "2026-03-18T20:16:20.800Z"
+  }
+}

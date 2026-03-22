@@ -1,0 +1,20 @@
+{
+  "type": "EFFECT_REQUESTED",
+  "recordedAt": "2026-03-18T21:15:36.664Z",
+  "data": {
+    "effectId": "01KM1CVMTFMVJSFMD0X0XFJ0PZ",
+    "invocationKey": "fractalengine/phase3-integration:S000023:integration-polish",
+    "invocationHash": "ade5f410f2edd258bf71290412620e0f462e33aa7fb43f28da17570ccfec7805",
+    "stepId": "S000023",
+    "taskId": "integration-polish",
+    "kind": "agent",
+    "label": "milestone-c",
+    "taskDefRef": "tasks/01KM1CVMTFMVJSFMD0X0XFJ0PZ/task.json",
+    "labels": [
+      "milestone-c",
+      "integration",
+      "polish"
+    ]
+  },
+  "checksum": "059d71a2f54e6586abe88e4caa2a557a78204f18a953f8f795800a0d86d228e7"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "EFFECT_REQUESTED",
+  "recordedAt": "2026-03-18T19:18:54.030Z",
+  "data": {
+    "effectId": "01KM165YA76R7ET0N4YPYWMQTM",
+    "invocationKey": "fractalengine/phase3-integration:S000003:split-ui-controller",
+    "invocationHash": "d7ae2bde7b8c134063e26a54bf5ddba395292a88ea84316c0efe160b280d70a7",
+    "stepId": "S000003",
+    "taskId": "split-ui-controller",
+    "kind": "agent",
+    "label": "milestone-a",
+    "taskDefRef": "tasks/01KM165YA76R7ET0N4YPYWMQTM/task.json",
+    "labels": [
+      "milestone-a",
+      "refactoring",
+      "ui"
+    ]
+  },
+  "checksum": "bbaf2d7362cac4d11220caa7ecfe47562f0457dab003032630c308793d9b5c03"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "2026.01.results-v1",
+  "effectId": "01KM17V6AXQCAD8F6A79QPDRAK",
+  "taskId": "viewport-resolution",
+  "invocationKey": "fractalengine/phase3-integration:S000013:viewport-resolution",
+  "status": "ok",
+  "result": {
+    "filesModified": [
+      "src/renderer/FractalRenderer.ts",
+      "src/main.ts"
+    ],
+    "summary": "Added getOptimalResolution() with devicePixelRatio capped at 2x, getMobileMaxIterations() that halves iterations on mobile. Updated resize handler. 57 tests pass."
+  },
+  "startedAt": "2026-03-18T19:49:25.864Z",
+  "finishedAt": "2026-03-18T19:49:25.864Z",
+  "value": {
+    "filesModified": [
+      "src/renderer/FractalRenderer.ts",
+      "src/main.ts"
+    ],
+    "summary": "Added getOptimalResolution() with devicePixelRatio capped at 2x, getMobileMaxIterations() that halves iterations on mobile. Updated resize handler. 57 tests pass."
+  }
+}

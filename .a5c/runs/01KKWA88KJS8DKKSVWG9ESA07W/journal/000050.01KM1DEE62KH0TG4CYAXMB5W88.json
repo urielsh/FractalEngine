@@ -1,0 +1,20 @@
+{
+  "type": "EFFECT_REQUESTED",
+  "recordedAt": "2026-03-18T21:25:52.451Z",
+  "data": {
+    "effectId": "01KM1DEE5RCRK4STKRZTYTTREY",
+    "invocationKey": "fractalengine/phase3-integration:S000025:quality-scoring",
+    "invocationHash": "1a4171eec2f9a5cd3e73f8343a3c75cbdfb430af1c5adeba859a58c69b1320e8",
+    "stepId": "S000025",
+    "taskId": "quality-scoring",
+    "kind": "agent",
+    "label": "quality-scoring",
+    "taskDefRef": "tasks/01KM1DEE5RCRK4STKRZTYTTREY/task.json",
+    "labels": [
+      "quality-scoring",
+      "milestone-C",
+      "iteration-1"
+    ]
+  },
+  "checksum": "8c08ba0054aa4caaaf6d842fc3016cf3ac04a44045870d1b1c2a846bde83cc7c"
+}

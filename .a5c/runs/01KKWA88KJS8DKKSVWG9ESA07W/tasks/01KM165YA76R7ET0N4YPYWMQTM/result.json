@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "2026.01.results-v1",
+  "effectId": "01KM165YA76R7ET0N4YPYWMQTM",
+  "taskId": "split-ui-controller",
+  "invocationKey": "fractalengine/phase3-integration:S000003:split-ui-controller",
+  "status": "ok",
+  "result": {
+    "filesCreated": [
+      "src/ui/ControlsPanel.ts",
+      "src/ui/EventBindings.ts",
+      "src/__tests__/ui.test.ts"
+    ],
+    "filesModified": [
+      "src/ui/UIController.ts"
+    ],
+    "summary": "Split UIController into 3 modules. ControlsPanel (73 lines), EventBindings (98 lines), slim UIController (106 lines). 12 new tests added. All tests pass.",
+    "testsPassed": true,
+    "typeCheckPassed": true
+  },
+  "startedAt": "2026-03-18T19:30:41.597Z",
+  "finishedAt": "2026-03-18T19:30:41.597Z",
+  "value": {
+    "filesCreated": [
+      "src/ui/ControlsPanel.ts",
+      "src/ui/EventBindings.ts",
+      "src/__tests__/ui.test.ts"
+    ],
+    "filesModified": [
+      "src/ui/UIController.ts"
+    ],
+    "summary": "Split UIController into 3 modules. ControlsPanel (73 lines), EventBindings (98 lines), slim UIController (106 lines). 12 new tests added. All tests pass.",
+    "testsPassed": true,
+    "typeCheckPassed": true
+  }
+}

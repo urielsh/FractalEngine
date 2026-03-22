@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "2026.01.tasks-v1",
+  "effectId": "01KM16VW31B1YXAHQ5J1KYMCDK",
+  "taskId": "create-ci-pipeline",
+  "invocationKey": "fractalengine/phase3-integration:S000006:create-ci-pipeline",
+  "stepId": "S000006",
+  "kind": "agent",
+  "title": "A6: Create CI/CD pipeline",
+  "labels": [
+    "ci",
+    "devops",
+    "milestone-a"
+  ],
+  "io": {
+    "inputJsonPath": "tasks/01KM16VW31B1YXAHQ5J1KYMCDK/input.json",
+    "outputJsonPath": "tasks/01KM16VW31B1YXAHQ5J1KYMCDK/result.json"
+  },
+  "inputs": {
+    "description": "Create .github/workflows/ci.yml with Node 20, type-check, test, build steps"
+  }
+}

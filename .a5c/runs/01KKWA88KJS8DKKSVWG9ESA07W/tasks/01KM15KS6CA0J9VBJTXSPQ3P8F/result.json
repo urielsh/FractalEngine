@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "2026.01.results-v1",
+  "effectId": "01KM15KS6CA0J9VBJTXSPQ3P8F",
+  "taskId": "split-fractals",
+  "invocationKey": "fractalengine/phase3-integration:S000002:split-fractals",
+  "status": "ok",
+  "result": {
+    "filesCreated": [
+      "src/fractals/Fractal.ts",
+      "src/fractals/MandelbrotSet.ts",
+      "src/fractals/JuliaSet.ts",
+      "src/fractals/BurningShip.ts",
+      "src/fractals/NewtonFractal.ts",
+      "src/fractals/LSystemFractal.ts"
+    ],
+    "filesModified": [
+      "src/fractals/index.ts"
+    ],
+    "summary": "Split monolithic index.ts into 6 individual files with barrel re-export. All 45 tests pass, zero type errors.",
+    "testsPassed": true,
+    "typeCheckPassed": true
+  },
+  "startedAt": "2026-03-18T19:16:43.678Z",
+  "finishedAt": "2026-03-18T19:16:43.678Z",
+  "value": {
+    "filesCreated": [
+      "src/fractals/Fractal.ts",
+      "src/fractals/MandelbrotSet.ts",
+      "src/fractals/JuliaSet.ts",
+      "src/fractals/BurningShip.ts",
+      "src/fractals/NewtonFractal.ts",
+      "src/fractals/LSystemFractal.ts"
+    ],
+    "filesModified": [
+      "src/fractals/index.ts"
+    ],
+    "summary": "Split monolithic index.ts into 6 individual files with barrel re-export. All 45 tests pass, zero type errors.",
+    "testsPassed": true,
+    "typeCheckPassed": true
+  }
+}

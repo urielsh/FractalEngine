@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "2026.01.tasks-v1",
+  "effectId": "01KM1CVMTFMVJSFMD0X0XFJ0PZ",
+  "taskId": "integration-polish",
+  "invocationKey": "fractalengine/phase3-integration:S000023:integration-polish",
+  "stepId": "S000023",
+  "kind": "agent",
+  "title": "C5: Integration and polish",
+  "labels": [
+    "integration",
+    "milestone-c",
+    "polish"
+  ],
+  "io": {
+    "inputJsonPath": "tasks/01KM1CVMTFMVJSFMD0X0XFJ0PZ/input.json",
+    "outputJsonPath": "tasks/01KM1CVMTFMVJSFMD0X0XFJ0PZ/result.json"
+  },
+  "inputs": {
+    "description": "Wire all new controls into EventBindings, handle L-System + shapes (ctx.clip for mask, disable distortion), collapsible control groups, performance (LUT precompute)",
+    "scope": "Full integration of C1-C4 into working application"
+  }
+}

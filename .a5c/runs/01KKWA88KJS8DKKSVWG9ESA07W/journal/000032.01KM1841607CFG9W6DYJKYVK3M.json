@@ -1,0 +1,20 @@
+{
+  "type": "EFFECT_REQUESTED",
+  "recordedAt": "2026-03-18T19:52:48.576Z",
+  "data": {
+    "effectId": "01KM18415Q9YBFKNK55GG0RC6V",
+    "invocationKey": "fractalengine/phase3-integration:S000016:fix-issues",
+    "invocationHash": "b9d98ea6445d130f4b04dd9a5e5b0809987ffa972c1cbaba9a72825d1922602b",
+    "stepId": "S000016",
+    "taskId": "fix-issues",
+    "kind": "agent",
+    "label": "fix-issues",
+    "taskDefRef": "tasks/01KM18415Q9YBFKNK55GG0RC6V/task.json",
+    "labels": [
+      "fix-issues",
+      "milestone-B",
+      "iteration-1"
+    ]
+  },
+  "checksum": "1a9c923693355c2fbc01281ad7765c1a44638f8ea694e66dae46d7ba640a36ca"
+}

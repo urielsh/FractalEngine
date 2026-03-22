@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "2026.01.results-v1",
+  "effectId": "01KM165YAQXZMJRM4ZWJRDRQ9A",
+  "taskId": "clean-dead-code",
+  "invocationKey": "fractalengine/phase3-integration:S000005:clean-dead-code",
+  "status": "ok",
+  "result": {
+    "deadCodeRemoved": [
+      "FractalEngine.exportAsImage",
+      "FractalRenderer.exportAsImage",
+      "FractalRenderer.setZoom"
+    ],
+    "filesModified": [
+      "src/engine/FractalEngine.ts",
+      "src/renderer/FractalRenderer.ts",
+      "src/ui/UIController.ts",
+      "src/main.ts",
+      "src/workers/WorkerPool.ts"
+    ],
+    "guardsAdded": [
+      "getContext null check",
+      "toBlob null check",
+      "getElementById null check",
+      "WorkerPool error diagnostics"
+    ],
+    "summary": "Removed 3 dead methods, added 4 error handling guards. All 45 tests pass, zero type errors."
+  },
+  "startedAt": "2026-03-18T19:30:41.705Z",
+  "finishedAt": "2026-03-18T19:30:41.705Z",
+  "value": {
+    "deadCodeRemoved": [
+      "FractalEngine.exportAsImage",
+      "FractalRenderer.exportAsImage",
+      "FractalRenderer.setZoom"
+    ],
+    "filesModified": [
+      "src/engine/FractalEngine.ts",
+      "src/renderer/FractalRenderer.ts",
+      "src/ui/UIController.ts",
+      "src/main.ts",
+      "src/workers/WorkerPool.ts"
+    ],
+    "guardsAdded": [
+      "getContext null check",
+      "toBlob null check",
+      "getElementById null check",
+      "WorkerPool error diagnostics"
+    ],
+    "summary": "Removed 3 dead methods, added 4 error handling guards. All 45 tests pass, zero type errors."
+  }
+}

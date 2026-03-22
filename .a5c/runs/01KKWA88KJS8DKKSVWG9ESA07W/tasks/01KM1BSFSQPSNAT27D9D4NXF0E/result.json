@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "2026.01.results-v1",
+  "effectId": "01KM1BSFSQPSNAT27D9D4NXF0E",
+  "taskId": "shape-boundaries",
+  "invocationKey": "fractalengine/phase3-integration:S000021:shape-boundaries",
+  "status": "ok",
+  "result": {
+    "filesCreated": [
+      "src/boundaries/ShapeBoundary.ts",
+      "src/boundaries/DistortionLUT.ts",
+      "src/__tests__/boundaries.test.ts"
+    ],
+    "filesModified": [],
+    "summary": "C3 complete: Created ShapeBoundary.ts with ShapeType, BoundaryMode, ShapeConfig types plus isInsideShape (oval/triangle/rectangle/none with barycentric triangle test and SDF rounded-box), distortCoordinates (polar warp with optional LUT), and defaultShapeConfig. DistortionLUT.ts provides buildLUT (720-entry Float32Array at 0.5° resolution) and lookupLUT (linear interpolation). All pure and worker-safe. 20 boundary tests pass. Integration into shared files deferred to C5.",
+    "testsCount": 20,
+    "testsPassed": true,
+    "typeCheckPassed": true
+  },
+  "startedAt": "2026-03-18T21:01:58.437Z",
+  "finishedAt": "2026-03-18T21:01:58.437Z",
+  "value": {
+    "filesCreated": [
+      "src/boundaries/ShapeBoundary.ts",
+      "src/boundaries/DistortionLUT.ts",
+      "src/__tests__/boundaries.test.ts"
+    ],
+    "filesModified": [],
+    "summary": "C3 complete: Created ShapeBoundary.ts with ShapeType, BoundaryMode, ShapeConfig types plus isInsideShape (oval/triangle/rectangle/none with barycentric triangle test and SDF rounded-box), distortCoordinates (polar warp with optional LUT), and defaultShapeConfig. DistortionLUT.ts provides buildLUT (720-entry Float32Array at 0.5° resolution) and lookupLUT (linear interpolation). All pure and worker-safe. 20 boundary tests pass. Integration into shared files deferred to C5.",
+    "testsCount": 20,
+    "testsPassed": true,
+    "typeCheckPassed": true
+  }
+}

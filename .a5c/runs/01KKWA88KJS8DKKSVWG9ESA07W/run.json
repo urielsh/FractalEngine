@@ -1,0 +1,13 @@
+{
+  "runId": "01KKWA88KJS8DKKSVWG9ESA07W",
+  "request": "fractalengine/phase3-integration",
+  "processId": "fractalengine/phase3-integration",
+  "entrypoint": {
+    "importPath": "../../processes/fractalengine-phase3.js",
+    "exportName": "process"
+  },
+  "processPath": "../../processes/fractalengine-phase3.js",
+  "layoutVersion": "2026.01-storage-preview",
+  "createdAt": "2026-03-16T21:53:52.247Z",
+  "completionProof": "f6fb4336de1b739fad731ff07454fd99"
+}

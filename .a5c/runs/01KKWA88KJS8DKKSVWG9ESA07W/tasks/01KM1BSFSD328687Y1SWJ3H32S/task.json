@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "2026.01.tasks-v1",
+  "effectId": "01KM1BSFSD328687Y1SWJ3H32S",
+  "taskId": "gradient-editor",
+  "invocationKey": "fractalengine/phase3-integration:S000020:gradient-editor",
+  "stepId": "S000020",
+  "kind": "agent",
+  "title": "C2: Custom gradient editor",
+  "labels": [
+    "color-system",
+    "gradient",
+    "milestone-c"
+  ],
+  "io": {
+    "inputJsonPath": "tasks/01KM1BSFSD328687Y1SWJ3H32S/input.json",
+    "outputJsonPath": "tasks/01KM1BSFSD328687Y1SWJ3H32S/result.json"
+  },
+  "inputs": {
+    "description": "Create GradientEditor.ts (interpolation logic) + GradientEditorUI.ts (2-4 color stops, pickers, preview strip)",
+    "newFiles": [
+      "src/colors/GradientEditor.ts",
+      "src/ui/GradientEditorUI.ts"
+    ]
+  }
+}

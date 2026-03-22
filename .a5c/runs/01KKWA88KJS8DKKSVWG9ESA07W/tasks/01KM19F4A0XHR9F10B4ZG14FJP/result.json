@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "2026.01.results-v1",
+  "effectId": "01KM19F4A0XHR9F10B4ZG14FJP",
+  "taskId": "__sdk.breakpoint",
+  "invocationKey": "fractalengine/phase3-integration:S000018:__sdk.breakpoint",
+  "status": "ok",
+  "result": {
+    "approved": true,
+    "response": "User approved Milestone B. Proceeding to Milestone C (Creative Controls)."
+  },
+  "startedAt": "2026-03-18T20:19:19.030Z",
+  "finishedAt": "2026-03-18T20:19:19.030Z",
+  "value": {
+    "approved": true,
+    "response": "User approved Milestone B. Proceeding to Milestone C (Creative Controls)."
+  }
+}

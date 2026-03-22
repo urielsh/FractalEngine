@@ -1,0 +1,20 @@
+{
+  "type": "EFFECT_REQUESTED",
+  "recordedAt": "2026-03-18T19:18:54.036Z",
+  "data": {
+    "effectId": "01KM165YAHX2MT10RMT7AQBBGP",
+    "invocationKey": "fractalengine/phase3-integration:S000004:extract-constants",
+    "invocationHash": "70669e3404423cbaa2719506f3d03db9376340ca42224899be37b48eddb8d64d",
+    "stepId": "S000004",
+    "taskId": "extract-constants",
+    "kind": "agent",
+    "label": "milestone-a",
+    "taskDefRef": "tasks/01KM165YAHX2MT10RMT7AQBBGP/task.json",
+    "labels": [
+      "milestone-a",
+      "refactoring",
+      "constants"
+    ]
+  },
+  "checksum": "78d62b13328a66054e646dc4c157c2b5f0357f6233d9e3f1439381860353a80e"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "EFFECT_REQUESTED",
+  "recordedAt": "2026-03-18T20:56:57.396Z",
+  "data": {
+    "effectId": "01KM1BSFSD328687Y1SWJ3H32S",
+    "invocationKey": "fractalengine/phase3-integration:S000020:gradient-editor",
+    "invocationHash": "5e65aec298adb5132aba358fc9f547f75c33b30b28fd6780cd029d3937b7ac07",
+    "stepId": "S000020",
+    "taskId": "gradient-editor",
+    "kind": "agent",
+    "label": "milestone-c",
+    "taskDefRef": "tasks/01KM1BSFSD328687Y1SWJ3H32S/task.json",
+    "labels": [
+      "milestone-c",
+      "color-system",
+      "gradient"
+    ]
+  },
+  "checksum": "96372a6c6e7cfd37ac8c3d7aa7869d35eaac7b0eebdc66dc9423e8a311ebec31"
+}

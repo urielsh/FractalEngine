@@ -1,0 +1,20 @@
+{
+  "type": "EFFECT_REQUESTED",
+  "recordedAt": "2026-03-18T20:56:57.401Z",
+  "data": {
+    "effectId": "01KM1BSFSQPSNAT27D9D4NXF0E",
+    "invocationKey": "fractalengine/phase3-integration:S000021:shape-boundaries",
+    "invocationHash": "3e4cb9993d9e194ab527bf8e1df00d78d505bf9c30959d4b47d98c65c44f328b",
+    "stepId": "S000021",
+    "taskId": "shape-boundaries",
+    "kind": "agent",
+    "label": "milestone-c",
+    "taskDefRef": "tasks/01KM1BSFSQPSNAT27D9D4NXF0E/task.json",
+    "labels": [
+      "milestone-c",
+      "boundaries",
+      "shapes"
+    ]
+  },
+  "checksum": "229e760e5a82523805ea87b02bccbb7206a2a0c100cd24b1a827188aa428c9ca"
+}

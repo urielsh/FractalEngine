@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "2026.01.tasks-v1",
+  "effectId": "01KM165YAQXZMJRM4ZWJRDRQ9A",
+  "taskId": "clean-dead-code",
+  "invocationKey": "fractalengine/phase3-integration:S000005:clean-dead-code",
+  "stepId": "S000005",
+  "kind": "agent",
+  "title": "A5: Remove dead code + add error handling",
+  "labels": [
+    "cleanup",
+    "milestone-a",
+    "refactoring"
+  ],
+  "io": {
+    "inputJsonPath": "tasks/01KM165YAQXZMJRM4ZWJRDRQ9A/input.json",
+    "outputJsonPath": "tasks/01KM165YAQXZMJRM4ZWJRDRQ9A/result.json"
+  },
+  "inputs": {
+    "description": "Remove unused exportAsImage/setZoom methods, add null guards for canvas context, blob export, getElementById"
+  }
+}

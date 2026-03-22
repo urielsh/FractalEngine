@@ -1,0 +1,20 @@
+{
+  "type": "EFFECT_REQUESTED",
+  "recordedAt": "2026-03-18T19:41:22.716Z",
+  "data": {
+    "effectId": "01KM17F3CNY98BK61704T3JXJX",
+    "invocationKey": "fractalengine/phase3-integration:S000010:responsive-layout",
+    "invocationHash": "69e98889891717ba1a9273b360f0e7fdbb3cdd2b90b4c42f38c5cd5704a67160",
+    "stepId": "S000010",
+    "taskId": "responsive-layout",
+    "kind": "agent",
+    "label": "milestone-b",
+    "taskDefRef": "tasks/01KM17F3CNY98BK61704T3JXJX/task.json",
+    "labels": [
+      "milestone-b",
+      "mobile",
+      "layout"
+    ]
+  },
+  "checksum": "76ab8c394b01239d9f7583f5f63e5f9e86dd0bfbfb0aa8ac25056fb06e3cfe5f"
+}

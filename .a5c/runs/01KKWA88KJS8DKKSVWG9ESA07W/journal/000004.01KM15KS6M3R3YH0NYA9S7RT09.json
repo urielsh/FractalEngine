@@ -1,0 +1,20 @@
+{
+  "type": "EFFECT_REQUESTED",
+  "recordedAt": "2026-03-18T19:08:58.964Z",
+  "data": {
+    "effectId": "01KM15KS6CA0J9VBJTXSPQ3P8F",
+    "invocationKey": "fractalengine/phase3-integration:S000002:split-fractals",
+    "invocationHash": "d867de6b9bcb1b66d81d520eb4f0eedb05638ae6d3d005f7f7f78dd8b669a0fa",
+    "stepId": "S000002",
+    "taskId": "split-fractals",
+    "kind": "agent",
+    "label": "milestone-a",
+    "taskDefRef": "tasks/01KM15KS6CA0J9VBJTXSPQ3P8F/task.json",
+    "labels": [
+      "milestone-a",
+      "refactoring",
+      "fractals"
+    ]
+  },
+  "checksum": "64cd5fd4ffa69f4dccd2ae37af059b4ce7e5d42e3990af80868b2c393a9a4f5b"
+}

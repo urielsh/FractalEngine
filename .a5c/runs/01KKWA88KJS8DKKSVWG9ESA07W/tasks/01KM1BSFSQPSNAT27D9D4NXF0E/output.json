@@ -1,0 +1,8 @@
+{
+  "filesCreated": ["src/boundaries/ShapeBoundary.ts", "src/boundaries/DistortionLUT.ts", "src/__tests__/boundaries.test.ts"],
+  "filesModified": [],
+  "summary": "C3 complete: Created ShapeBoundary.ts with ShapeType, BoundaryMode, ShapeConfig types plus isInsideShape (oval/triangle/rectangle/none with barycentric triangle test and SDF rounded-box), distortCoordinates (polar warp with optional LUT), and defaultShapeConfig. DistortionLUT.ts provides buildLUT (720-entry Float32Array at 0.5° resolution) and lookupLUT (linear interpolation). All pure and worker-safe. 20 boundary tests pass. Integration into shared files deferred to C5.",
+  "testsPassed": true,
+  "typeCheckPassed": true,
+  "testsCount": 20
+}

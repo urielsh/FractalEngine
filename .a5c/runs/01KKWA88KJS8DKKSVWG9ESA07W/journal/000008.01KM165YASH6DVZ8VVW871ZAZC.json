@@ -1,0 +1,20 @@
+{
+  "type": "EFFECT_REQUESTED",
+  "recordedAt": "2026-03-18T19:18:54.041Z",
+  "data": {
+    "effectId": "01KM165YAQXZMJRM4ZWJRDRQ9A",
+    "invocationKey": "fractalengine/phase3-integration:S000005:clean-dead-code",
+    "invocationHash": "38247b2131e426d7a22732adab7cf790f9192731232f1747de38a6a1bd35b592",
+    "stepId": "S000005",
+    "taskId": "clean-dead-code",
+    "kind": "agent",
+    "label": "milestone-a",
+    "taskDefRef": "tasks/01KM165YAQXZMJRM4ZWJRDRQ9A/task.json",
+    "labels": [
+      "milestone-a",
+      "refactoring",
+      "cleanup"
+    ]
+  },
+  "checksum": "09941e054d92df6deed55e304fd2e3d390884ba6cf6fc8eb88b66882f17aeec6"
+}

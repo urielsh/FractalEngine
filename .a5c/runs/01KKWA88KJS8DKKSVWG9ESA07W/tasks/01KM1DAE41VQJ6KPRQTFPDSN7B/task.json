@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "2026.01.tasks-v1",
+  "effectId": "01KM1DAE41VQJ6KPRQTFPDSN7B",
+  "taskId": "verify-milestone",
+  "invocationKey": "fractalengine/phase3-integration:S000024:verify-milestone",
+  "stepId": "S000024",
+  "kind": "agent",
+  "title": "Verify milestone C: Phase 3 Creative Controls",
+  "labels": [
+    "milestone-C",
+    "verification"
+  ],
+  "io": {
+    "inputJsonPath": "tasks/01KM1DAE41VQJ6KPRQTFPDSN7B/input.json",
+    "outputJsonPath": "tasks/01KM1DAE41VQJ6KPRQTFPDSN7B/result.json"
+  },
+  "inputs": {
+    "expectedMinTests": 92,
+    "milestone": "C",
+    "milestoneName": "Phase 3 Creative Controls",
+    "tasks": [
+      {
+        "filesCreated": [
+          "src/colors/ColorParams.ts"
+        ],
+        "filesModified": [
+          "src/colors/colorMapping.ts",
+          "src/workers/fractal.worker.ts",
+          "src/engine/FractalEngine.ts"
+        ],
+        "summary": "C1 complete: Created ColorParams interface with hueOffset, saturation, brightness, contrast, cycleSpeed. Integrated applyColorParams into colorMapping.ts. Worker and engine updated to pass ColorParams through the pipeline. Type check clean, 98 tests pass. UI slider wiring deferred to C5 integration.",
+        "testsCount": 98,
+        "testsPassed": true,
+        "typeCheckPassed": true
+      },
+      {
+        "filesCreated": [
+          "src/colors/GradientEditor.ts",
+          "src/ui/GradientEditorUI.ts",
+          "src/__tests__/gradient.test.ts"
+        ],
+        "filesModified": [],
+        "summary": "C2 complete: Created GradientEditor.ts with pure interpolateGradient and mapWithGradient functions (worker-safe). GradientEditorUI.ts provides DOM-based editor with 2-4 color stops, pickers, position sliders, add/remove buttons, enable checkbox, and live 200x20 canvas preview. 8 gradient tests pass. Integration into shared files (worker, colorMapping, ControlsPanel) deferred to C5.",
+        "testsCount": 8,
+        "testsPassed": true,
+        "typeCheckPassed": true
+      },
+      {
+        "filesCreated": [
+          "src/boundaries/ShapeBoundary.ts",
+          "src/boundaries/DistortionLUT.ts",
+          "src/__tests__/boundaries.test.ts"
+        ],
+        "filesModified": [],
+        "summary": "C3 complete: Created ShapeBoundary.ts with ShapeType, BoundaryMode, ShapeConfig types plus isInsideShape (oval/triangle/rectangle/none with barycentric triangle test and SDF rounded-box), distortCoordinates (polar warp with optional LUT), and defaultShapeConfig. DistortionLUT.ts provides buildLUT (720-entry Float32Array at 0.5° resolution) and lookupLUT (linear interpolation). All pure and worker-safe. 20 boundary tests pass. Integration into shared files deferred to C5.",
+        "testsCount": 20,
+        "testsPassed": true,
+        "typeCheckPassed": true
+      },
+      {
+        "filesCreated": [
+          "src/boundaries/ChessPieces.ts",
+          "src/__tests__/chessPieces.test.ts"
+        ],
+        "filesModified": [
+          "src/boundaries/ShapeBoundary.ts",
+          "src/boundaries/DistortionLUT.ts"
+        ],
+        "summary": "C4 complete: Created ChessPieces.ts with pure SDF/polygon hit-test functions for all 6 pieces (pawn: circle union, rook: rectangles+crenellations, bishop: trapezoid+triangle+mitre, knight: 21-vertex polygon winding-number, queen: trapezoid+5 polar crown points, king: trapezoid+cross). Extended ShapeType to include chess types, added ray-march boundary sampling for distortion/LUT. 14 new tests, 140 total passing.",
+        "testsCount": 140,
+        "testsPassed": true,
+        "typeCheckPassed": true
+      },
+      {
+        "allTestsPassed": true,
+        "bundleSize": "476 KB (122 KB gzipped)",
+        "filesModified": [
+          "src/workers/fractal.worker.ts",
+          "src/engine/FractalEngine.ts",
+          "src/renderer/FractalRenderer.ts",
+          "src/ui/ControlsPanel.ts",
+          "src/ui/UIController.ts",
+          "src/ui/EventBindings.ts",
+          "src/__tests__/ui.test.ts"
+        ],
+        "summary": "C5 Integration complete. Worker accepts gradientStops, shapeConfig, distortionLUT in TileTask — handles mask mode (skip outside pixels), distortion mode (warp coords via LUT), and custom gradient mapping. FractalEngine stores all new state with setGradient/setShapeConfig methods, precomputes LUT as number[] for structured-clone transfer. ControlsPanel has shape dropdown (none+3 shapes+6 chess), mode toggle, aspect/roundness sliders (hidden for chess), gradient editor mount, collapsible sections. L-System mask via pixel compositing, distortion disabled for L-Systems. Bundle 476KB (122KB gzip).",
+        "testsCount": 140,
+        "typeCheckPassed": true
+      }
+    ],
+    "verifyCommand": "npm run type-check && npm test && npm run build"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "2026.01.tasks-v1",
+  "effectId": "01KM165YAHX2MT10RMT7AQBBGP",
+  "taskId": "extract-constants",
+  "invocationKey": "fractalengine/phase3-integration:S000004:extract-constants",
+  "stepId": "S000004",
+  "kind": "agent",
+  "title": "A4: Extract magic numbers to constants.ts",
+  "labels": [
+    "constants",
+    "milestone-a",
+    "refactoring"
+  ],
+  "io": {
+    "inputJsonPath": "tasks/01KM165YAHX2MT10RMT7AQBBGP/input.json",
+    "outputJsonPath": "tasks/01KM165YAHX2MT10RMT7AQBBGP/result.json"
+  },
+  "inputs": {
+    "description": "Create src/constants.ts with SIDEBAR_WIDTH_PX, TILE_HEIGHT_PX, DEFAULT_CANVAS_WIDTH/HEIGHT, etc.",
+    "magicNumbers": [
+      "350 (sidebar)",
+      "96 (tile height)",
+      "1024x768 (canvas)",
+      "300 (debounce)",
+      "0.1 (pan step)",
+      "1.1 (zoom factor)"
+    ]
+  }
+}

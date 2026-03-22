@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "2026.01.results-v1",
+  "effectId": "01KM17F3CNY98BK61704T3JXJX",
+  "taskId": "responsive-layout",
+  "invocationKey": "fractalengine/phase3-integration:S000010:responsive-layout",
+  "status": "ok",
+  "result": {
+    "filesCreated": [],
+    "filesModified": [
+      "index.html",
+      "src/main.ts",
+      "src/constants.ts"
+    ],
+    "summary": "Responsive layout with 3 breakpoints. Desktop sidebar, tablet right overlay, mobile bottom drawer. Toggle button, backdrop, matchMedia listener. 57 tests pass."
+  },
+  "startedAt": "2026-03-18T19:43:36.092Z",
+  "finishedAt": "2026-03-18T19:43:36.092Z",
+  "value": {
+    "filesCreated": [],
+    "filesModified": [
+      "index.html",
+      "src/main.ts",
+      "src/constants.ts"
+    ],
+    "summary": "Responsive layout with 3 breakpoints. Desktop sidebar, tablet right overlay, mobile bottom drawer. Toggle button, backdrop, matchMedia listener. 57 tests pass."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "2026.01.results-v1",
+  "effectId": "01KM1C43MFKSJ2AP4MAWN9HQWQ",
+  "taskId": "chess-pieces",
+  "invocationKey": "fractalengine/phase3-integration:S000022:chess-pieces",
+  "status": "ok",
+  "result": {
+    "filesCreated": [
+      "src/boundaries/ChessPieces.ts",
+      "src/__tests__/chessPieces.test.ts"
+    ],
+    "filesModified": [
+      "src/boundaries/ShapeBoundary.ts",
+      "src/boundaries/DistortionLUT.ts"
+    ],
+    "summary": "C4 complete: Created ChessPieces.ts with pure SDF/polygon hit-test functions for all 6 pieces (pawn: circle union, rook: rectangles+crenellations, bishop: trapezoid+triangle+mitre, knight: 21-vertex polygon winding-number, queen: trapezoid+5 polar crown points, king: trapezoid+cross). Extended ShapeType to include chess types, added ray-march boundary sampling for distortion/LUT. 14 new tests, 140 total passing.",
+    "testsCount": 140,
+    "testsPassed": true,
+    "typeCheckPassed": true
+  },
+  "startedAt": "2026-03-18T21:15:14.223Z",
+  "finishedAt": "2026-03-18T21:15:14.223Z",
+  "value": {
+    "filesCreated": [
+      "src/boundaries/ChessPieces.ts",
+      "src/__tests__/chessPieces.test.ts"
+    ],
+    "filesModified": [
+      "src/boundaries/ShapeBoundary.ts",
+      "src/boundaries/DistortionLUT.ts"
+    ],
+    "summary": "C4 complete: Created ChessPieces.ts with pure SDF/polygon hit-test functions for all 6 pieces (pawn: circle union, rook: rectangles+crenellations, bishop: trapezoid+triangle+mitre, knight: 21-vertex polygon winding-number, queen: trapezoid+5 polar crown points, king: trapezoid+cross). Extended ShapeType to include chess types, added ray-march boundary sampling for distortion/LUT. 14 new tests, 140 total passing.",
+    "testsCount": 140,
+    "testsPassed": true,
+    "typeCheckPassed": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "2026.01.tasks-v1",
+  "effectId": "01KM176YZRB5RAGZ3160GVEZCM",
+  "taskId": "quality-scoring",
+  "invocationKey": "fractalengine/phase3-integration:S000008:quality-scoring",
+  "stepId": "S000008",
+  "kind": "agent",
+  "title": "Score quality: Milestone A (iter 1)",
+  "labels": [
+    "iteration-1",
+    "milestone-A",
+    "quality-scoring"
+  ],
+  "io": {
+    "inputJsonPath": "tasks/01KM176YZRB5RAGZ3160GVEZCM/input.json",
+    "outputJsonPath": "tasks/01KM176YZRB5RAGZ3160GVEZCM/result.json"
+  },
+  "inputs": {
+    "criteria": [
+      "No color logic duplication between ColorScheme.ts and fractal.worker.ts",
+      "Each fractal type in its own file with barrel re-export",
+      "UIController split into 3 modules (controller, panel, bindings)",
+      "All magic numbers extracted to constants.ts",
+      "Dead code removed, error handling added",
+      "CI pipeline created and valid",
+      "All existing 26 tests still pass",
+      "New tests for colorMapping added",
+      "tsc --noEmit zero errors"
+    ],
+    "iteration": 1,
+    "milestone": "A",
+    "milestoneName": "Clean Code Refactoring",
+    "targetQuality": 85,
+    "verification": {
+      "buildSuccess": true,
+      "issues": [],
+      "testsPassed": 57,
+      "typeErrors": 0,
+      "verified": true
+    }
+  }
+}

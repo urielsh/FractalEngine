@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "2026.01.results-v1",
+  "effectId": "01KM1DEE5RCRK4STKRZTYTTREY",
+  "taskId": "quality-scoring",
+  "invocationKey": "fractalengine/phase3-integration:S000025:quality-scoring",
+  "status": "ok",
+  "result": {
+    "criteriaScores": [
+      {
+        "criterion": "Color parameter sliders",
+        "notes": "All 5 sliders with real-time input events. 13 dedicated tests.",
+        "score": 95
+      },
+      {
+        "criterion": "Custom gradient with 2-4 color stops",
+        "notes": "Proper linear RGB interpolation, live preview, 10 tests.",
+        "score": 93
+      },
+      {
+        "criterion": "Shape boundaries",
+        "notes": "Oval, triangle, rectangle with aspect and roundness. 17 tests.",
+        "score": 92
+      },
+      {
+        "criterion": "Chess pieces",
+        "notes": "All 6 pieces with geometric primitives. 16 tests.",
+        "score": 88
+      },
+      {
+        "criterion": "Mask mode",
+        "notes": "Worker correctly skips outside pixels.",
+        "score": 93
+      },
+      {
+        "criterion": "Distortion mode",
+        "notes": "Polar warp with precomputed LUT. Minor triangle roundness inconsistency.",
+        "score": 88
+      },
+      {
+        "criterion": "L-System mask/distortion",
+        "notes": "Uses pixel compositing instead of ctx.clip(). Distortion disabled at UI level only.",
+        "score": 78
+      },
+      {
+        "criterion": "Collapsible control groups",
+        "notes": "7 sections, 3 start collapsed. No keyboard/ARIA accessibility.",
+        "score": 90
+      },
+      {
+        "criterion": "All tests pass",
+        "notes": "140/140 tests pass.",
+        "score": 100
+      },
+      {
+        "criterion": "Bundle size < 500KB",
+        "notes": "476KB main + 8KB worker = 484KB total.",
+        "score": 95
+      },
+      {
+        "criterion": "Mobile touch + shapes",
+        "notes": "TouchHandler integrated, 21 tests. No explicit integration test with shapes.",
+        "score": 88
+      }
+    ],
+    "criticalIssues": [
+      "Triangle roundness formula inconsistency between ShapeBoundary.ts (lerp toward centroid) and DistortionLUT.ts (simple scale)"
+    ],
+    "feedback": "Strong implementation scoring 90/100. Color params, gradient editor, shape boundaries, and chess pieces are well-architected with comprehensive tests. Main shortcoming is L-System masking uses pixel compositing instead of ctx.clip(), and triangle roundness formula inconsistency between ShapeBoundary.ts and DistortionLUT.ts.",
+    "recommendations": [
+      "Unify triangle roundness formula between ShapeBoundary.ts and DistortionLUT.ts",
+      "Add engine-level enforcement preventing distortion mode for L-Systems",
+      "Add ARIA attributes and keyboard support to collapsible headers"
+    ],
+    "score": 90
+  },
+  "startedAt": "2026-03-18T21:32:05.000Z",
+  "finishedAt": "2026-03-18T21:32:05.000Z",
+  "value": {
+    "criteriaScores": [
+      {
+        "criterion": "Color parameter sliders",
+        "notes": "All 5 sliders with real-time input events. 13 dedicated tests.",
+        "score": 95
+      },
+      {
+        "criterion": "Custom gradient with 2-4 color stops",
+        "notes": "Proper linear RGB interpolation, live preview, 10 tests.",
+        "score": 93
+      },
+      {
+        "criterion": "Shape boundaries",
+        "notes": "Oval, triangle, rectangle with aspect and roundness. 17 tests.",
+        "score": 92
+      },
+      {
+        "criterion": "Chess pieces",
+        "notes": "All 6 pieces with geometric primitives. 16 tests.",
+        "score": 88
+      },
+      {
+        "criterion": "Mask mode",
+        "notes": "Worker correctly skips outside pixels.",
+        "score": 93
+      },
+      {
+        "criterion": "Distortion mode",
+        "notes": "Polar warp with precomputed LUT. Minor triangle roundness inconsistency.",
+        "score": 88
+      },
+      {
+        "criterion": "L-System mask/distortion",
+        "notes": "Uses pixel compositing instead of ctx.clip(). Distortion disabled at UI level only.",
+        "score": 78
+      },
+      {
+        "criterion": "Collapsible control groups",
+        "notes": "7 sections, 3 start collapsed. No keyboard/ARIA accessibility.",
+        "score": 90
+      },
+      {
+        "criterion": "All tests pass",
+        "notes": "140/140 tests pass.",
+        "score": 100
+      },
+      {
+        "criterion": "Bundle size < 500KB",
+        "notes": "476KB main + 8KB worker = 484KB total.",
+        "score": 95
+      },
+      {
+        "criterion": "Mobile touch + shapes",
+        "notes": "TouchHandler integrated, 21 tests. No explicit integration test with shapes.",
+        "score": 88
+      }
+    ],
+    "criticalIssues": [
+      "Triangle roundness formula inconsistency between ShapeBoundary.ts (lerp toward centroid) and DistortionLUT.ts (simple scale)"
+    ],
+    "feedback": "Strong implementation scoring 90/100. Color params, gradient editor, shape boundaries, and chess pieces are well-architected with comprehensive tests. Main shortcoming is L-System masking uses pixel compositing instead of ctx.clip(), and triangle roundness formula inconsistency between ShapeBoundary.ts and DistortionLUT.ts.",
+    "recommendations": [
+      "Unify triangle roundness formula between ShapeBoundary.ts and DistortionLUT.ts",
+      "Add engine-level enforcement preventing distortion mode for L-Systems",
+      "Add ARIA attributes and keyboard support to collapsible headers"
+    ],
+    "score": 90
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "2026.01.tasks-v1",
+  "effectId": "01KM1DEE5RCRK4STKRZTYTTREY",
+  "taskId": "quality-scoring",
+  "invocationKey": "fractalengine/phase3-integration:S000025:quality-scoring",
+  "stepId": "S000025",
+  "kind": "agent",
+  "title": "Score quality: Milestone C (iter 1)",
+  "labels": [
+    "iteration-1",
+    "milestone-C",
+    "quality-scoring"
+  ],
+  "io": {
+    "inputJsonPath": "tasks/01KM1DEE5RCRK4STKRZTYTTREY/input.json",
+    "outputJsonPath": "tasks/01KM1DEE5RCRK4STKRZTYTTREY/result.json"
+  },
+  "inputs": {
+    "criteria": [
+      "Color parameter sliders (hue, saturation, brightness, contrast, cycle speed) work in real-time",
+      "Custom gradient with 2-4 color stops interpolates correctly",
+      "Shape boundaries: oval, triangle, rectangle with aspect ratio and roundness",
+      "Chess pieces: all 6 recognizable silhouettes",
+      "Mask mode clips fractal to shape boundary",
+      "Distortion mode warps fractal to fill shape",
+      "L-System: mask via ctx.clip, distortion disabled",
+      "Collapsible control groups in UI",
+      "All tests pass (92+)",
+      "Bundle size < 500KB",
+      "Mobile touch + shapes work together"
+    ],
+    "iteration": 1,
+    "milestone": "C",
+    "milestoneName": "Phase 3 Creative Controls",
+    "targetQuality": 85,
+    "verification": {
+      "buildSuccess": true,
+      "details": {
+        "actualTests": 140,
+        "buildTime": "694ms",
+        "bundleSize": "476.16 KB (121.66 KB gzipped)",
+        "expectedMinTests": 92,
+        "testFiles": "10 passed (10 total)",
+        "verifyCommand": "npm run type-check && npm test && npm run build"
+      },
+      "issues": [],
+      "testsPassed": 140,
+      "typeErrors": 0,
+      "verified": true
+    }
+  }
+}

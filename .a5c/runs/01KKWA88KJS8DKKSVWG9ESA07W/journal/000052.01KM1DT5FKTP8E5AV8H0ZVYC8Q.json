@@ -1,0 +1,18 @@
+{
+  "type": "EFFECT_REQUESTED",
+  "recordedAt": "2026-03-18T21:32:16.755Z",
+  "data": {
+    "effectId": "01KM1DT5FC4D4M3ZPZCDDWC8BQ",
+    "invocationKey": "fractalengine/phase3-integration:S000026:final-review",
+    "invocationHash": "50c5202f1f43416db21a5a4c7c5bc908094f0e4a550ea0cc112dd1f34177bb3e",
+    "stepId": "S000026",
+    "taskId": "final-review",
+    "kind": "agent",
+    "label": "final-review",
+    "taskDefRef": "tasks/01KM1DT5FC4D4M3ZPZCDDWC8BQ/task.json",
+    "labels": [
+      "final-review"
+    ]
+  },
+  "checksum": "08b97f0fccc074bda91bb4a389c7205eabebc42418e52b4d0439c65b68750d51"
+}

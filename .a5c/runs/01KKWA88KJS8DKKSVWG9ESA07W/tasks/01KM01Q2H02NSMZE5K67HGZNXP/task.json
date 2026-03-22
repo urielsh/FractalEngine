@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "2026.01.tasks-v1",
+  "effectId": "01KM01Q2H02NSMZE5K67HGZNXP",
+  "taskId": "refactor-color-module",
+  "invocationKey": "fractalengine/phase3-integration:S000001:refactor-color-module",
+  "stepId": "S000001",
+  "kind": "agent",
+  "title": "A1: Extract shared color mapping module",
+  "labels": [
+    "color-system",
+    "milestone-a",
+    "refactoring"
+  ],
+  "io": {
+    "inputJsonPath": "tasks/01KM01Q2H02NSMZE5K67HGZNXP/input.json",
+    "outputJsonPath": "tasks/01KM01Q2H02NSMZE5K67HGZNXP/result.json"
+  },
+  "inputs": {
+    "description": "Extract shared color mapping from ColorScheme.ts and fractal.worker.ts into colorMapping.ts",
+    "files": {
+      "source1": "src/colors/ColorScheme.ts",
+      "source2": "src/workers/fractal.worker.ts",
+      "target": "src/colors/colorMapping.ts"
+    }
+  }
+}

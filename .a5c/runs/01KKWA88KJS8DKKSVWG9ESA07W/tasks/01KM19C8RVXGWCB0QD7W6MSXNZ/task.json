@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "2026.01.tasks-v1",
+  "effectId": "01KM19C8RVXGWCB0QD7W6MSXNZ",
+  "taskId": "quality-scoring",
+  "invocationKey": "fractalengine/phase3-integration:S000017:quality-scoring",
+  "stepId": "S000017",
+  "kind": "agent",
+  "title": "Score quality: Milestone B (iter 2)",
+  "labels": [
+    "iteration-2",
+    "milestone-B",
+    "quality-scoring"
+  ],
+  "io": {
+    "inputJsonPath": "tasks/01KM19C8RVXGWCB0QD7W6MSXNZ/input.json",
+    "outputJsonPath": "tasks/01KM19C8RVXGWCB0QD7W6MSXNZ/result.json"
+  },
+  "inputs": {
+    "criteria": [
+      "Desktop layout unchanged (sidebar right, canvas left)",
+      "Tablet: collapsible overlay panel with hamburger toggle",
+      "Mobile: bottom drawer with FAB toggle, 60vh max",
+      "Touch pinch-to-zoom working",
+      "Touch single-finger pan working",
+      "Double-tap reset working",
+      "Canvas fills full viewport on mobile",
+      "Touch targets >= 44px (WCAG)",
+      "devicePixelRatio handled (capped 2x)",
+      "Tests pass, type-check clean, build succeeds"
+    ],
+    "iteration": 2,
+    "milestone": "B",
+    "milestoneName": "Mobile-First Responsive Design",
+    "targetQuality": 85,
+    "verification": {
+      "buildSuccess": true,
+      "issues": [],
+      "testsPassed": 57,
+      "typeErrors": 0,
+      "verified": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "EFFECT_REQUESTED",
+  "recordedAt": "2026-03-18T19:30:52.648Z",
+  "data": {
+    "effectId": "01KM16VW31B1YXAHQ5J1KYMCDK",
+    "invocationKey": "fractalengine/phase3-integration:S000006:create-ci-pipeline",
+    "invocationHash": "48b7111e4c03452990de31d48ecac7ea31b6d6126367b7fcf27b1b26630c57ec",
+    "stepId": "S000006",
+    "taskId": "create-ci-pipeline",
+    "kind": "agent",
+    "label": "milestone-a",
+    "taskDefRef": "tasks/01KM16VW31B1YXAHQ5J1KYMCDK/task.json",
+    "labels": [
+      "milestone-a",
+      "devops",
+      "ci"
+    ]
+  },
+  "checksum": "fe9c86618497d2802b61dffce1bce0158c753dc46aaae3da5b4be9963b504be9"
+}

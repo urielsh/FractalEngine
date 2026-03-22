@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "2026.01.results-v1",
+  "effectId": "01KM1CVMTFMVJSFMD0X0XFJ0PZ",
+  "taskId": "integration-polish",
+  "invocationKey": "fractalengine/phase3-integration:S000023:integration-polish",
+  "status": "ok",
+  "result": {
+    "allTestsPassed": true,
+    "bundleSize": "476 KB (122 KB gzipped)",
+    "filesModified": [
+      "src/workers/fractal.worker.ts",
+      "src/engine/FractalEngine.ts",
+      "src/renderer/FractalRenderer.ts",
+      "src/ui/ControlsPanel.ts",
+      "src/ui/UIController.ts",
+      "src/ui/EventBindings.ts",
+      "src/__tests__/ui.test.ts"
+    ],
+    "summary": "C5 Integration complete. Worker accepts gradientStops, shapeConfig, distortionLUT in TileTask — handles mask mode (skip outside pixels), distortion mode (warp coords via LUT), and custom gradient mapping. FractalEngine stores all new state with setGradient/setShapeConfig methods, precomputes LUT as number[] for structured-clone transfer. ControlsPanel has shape dropdown (none+3 shapes+6 chess), mode toggle, aspect/roundness sliders (hidden for chess), gradient editor mount, collapsible sections. L-System mask via pixel compositing, distortion disabled for L-Systems. Bundle 476KB (122KB gzip).",
+    "testsCount": 140,
+    "typeCheckPassed": true
+  },
+  "startedAt": "2026-03-18T21:23:13.133Z",
+  "finishedAt": "2026-03-18T21:23:13.133Z",
+  "value": {
+    "allTestsPassed": true,
+    "bundleSize": "476 KB (122 KB gzipped)",
+    "filesModified": [
+      "src/workers/fractal.worker.ts",
+      "src/engine/FractalEngine.ts",
+      "src/renderer/FractalRenderer.ts",
+      "src/ui/ControlsPanel.ts",
+      "src/ui/UIController.ts",
+      "src/ui/EventBindings.ts",
+      "src/__tests__/ui.test.ts"
+    ],
+    "summary": "C5 Integration complete. Worker accepts gradientStops, shapeConfig, distortionLUT in TileTask — handles mask mode (skip outside pixels), distortion mode (warp coords via LUT), and custom gradient mapping. FractalEngine stores all new state with setGradient/setShapeConfig methods, precomputes LUT as number[] for structured-clone transfer. ControlsPanel has shape dropdown (none+3 shapes+6 chess), mode toggle, aspect/roundness sliders (hidden for chess), gradient editor mount, collapsible sections. L-System mask via pixel compositing, distortion disabled for L-Systems. Bundle 476KB (122KB gzip).",
+    "testsCount": 140,
+    "typeCheckPassed": true
+  }
+}

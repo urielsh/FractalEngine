@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "2026.01.tasks-v1",
+  "effectId": "01KM17D7JD0EANH4XQRZKCP5N0",
+  "taskId": "__sdk.breakpoint",
+  "invocationKey": "fractalengine/phase3-integration:S000009:__sdk.breakpoint",
+  "stepId": "S000009",
+  "kind": "breakpoint",
+  "title": "breakpoint",
+  "metadata": {
+    "label": "breakpoint",
+    "payload": {
+      "context": {
+        "quality": 88
+      },
+      "question": "Milestone A (Clean Code) complete. Quality: 88/85. Approve and proceed to Milestone B (Mobile)?",
+      "title": "Milestone A Review — Clean Code Refactoring"
+    },
+    "requestedAt": "2026-03-18T19:40:21.453Z"
+  },
+  "inputs": {
+    "label": "breakpoint",
+    "payload": {
+      "context": {
+        "quality": 88
+      },
+      "question": "Milestone A (Clean Code) complete. Quality: 88/85. Approve and proceed to Milestone B (Mobile)?",
+      "title": "Milestone A Review — Clean Code Refactoring"
+    },
+    "requestedAt": "2026-03-18T19:40:21.453Z"
+  }
+}

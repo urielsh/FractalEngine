@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "2026.01.tasks-v1",
+  "effectId": "01KM165YA76R7ET0N4YPYWMQTM",
+  "taskId": "split-ui-controller",
+  "invocationKey": "fractalengine/phase3-integration:S000003:split-ui-controller",
+  "stepId": "S000003",
+  "kind": "agent",
+  "title": "A3: Split UIController into 3 modules",
+  "labels": [
+    "milestone-a",
+    "refactoring",
+    "ui"
+  ],
+  "io": {
+    "inputJsonPath": "tasks/01KM165YA76R7ET0N4YPYWMQTM/input.json",
+    "outputJsonPath": "tasks/01KM165YA76R7ET0N4YPYWMQTM/result.json"
+  },
+  "inputs": {
+    "description": "Split UIController.ts into ControlsPanel.ts, EventBindings.ts, and slim UIController.ts",
+    "sourceFile": "src/ui/UIController.ts"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "2026.01.tasks-v1",
+  "effectId": "01KM1C43MFKSJ2AP4MAWN9HQWQ",
+  "taskId": "chess-pieces",
+  "invocationKey": "fractalengine/phase3-integration:S000022:chess-pieces",
+  "stepId": "S000022",
+  "kind": "agent",
+  "title": "C4: Chess piece silhouettes",
+  "labels": [
+    "boundaries",
+    "chess",
+    "milestone-c"
+  ],
+  "io": {
+    "inputJsonPath": "tasks/01KM1C43MFKSJ2AP4MAWN9HQWQ/input.json",
+    "outputJsonPath": "tasks/01KM1C43MFKSJ2AP4MAWN9HQWQ/result.json"
+  },
+  "inputs": {
+    "dependsOn": "src/boundaries/ShapeBoundary.ts",
+    "description": "Create ChessPieces.ts with 6 SDF/polygon chess piece silhouettes (pawn, rook, bishop, knight, queen, king), extend ShapeType",
+    "newFile": "src/boundaries/ChessPieces.ts"
+  }
+}

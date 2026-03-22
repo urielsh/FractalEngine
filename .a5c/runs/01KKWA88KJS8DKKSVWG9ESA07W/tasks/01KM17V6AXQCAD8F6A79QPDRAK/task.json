@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "2026.01.tasks-v1",
+  "effectId": "01KM17V6AXQCAD8F6A79QPDRAK",
+  "taskId": "viewport-resolution",
+  "invocationKey": "fractalengine/phase3-integration:S000013:viewport-resolution",
+  "stepId": "S000013",
+  "kind": "agent",
+  "title": "B4: Viewport-aware canvas resolution",
+  "labels": [
+    "milestone-b",
+    "mobile",
+    "resolution"
+  ],
+  "io": {
+    "inputJsonPath": "tasks/01KM17V6AXQCAD8F6A79QPDRAK/input.json",
+    "outputJsonPath": "tasks/01KM17V6AXQCAD8F6A79QPDRAK/result.json"
+  },
+  "inputs": {
+    "description": "Add devicePixelRatio support (capped at 2x), getOptimalResolution(), reduce maxIterations on mobile",
+    "file": "src/renderer/FractalRenderer.ts"
+  }
+}

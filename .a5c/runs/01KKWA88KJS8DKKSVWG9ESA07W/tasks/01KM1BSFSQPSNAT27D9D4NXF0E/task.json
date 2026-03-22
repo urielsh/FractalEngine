@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "2026.01.tasks-v1",
+  "effectId": "01KM1BSFSQPSNAT27D9D4NXF0E",
+  "taskId": "shape-boundaries",
+  "invocationKey": "fractalengine/phase3-integration:S000021:shape-boundaries",
+  "stepId": "S000021",
+  "kind": "agent",
+  "title": "C3: Shape boundaries — basic shapes",
+  "labels": [
+    "boundaries",
+    "milestone-c",
+    "shapes"
+  ],
+  "io": {
+    "inputJsonPath": "tasks/01KM1BSFSQPSNAT27D9D4NXF0E/input.json",
+    "outputJsonPath": "tasks/01KM1BSFSQPSNAT27D9D4NXF0E/result.json"
+  },
+  "inputs": {
+    "description": "Create ShapeBoundary.ts (oval/triangle/rectangle with isInsideShape, distortCoordinates) + DistortionLUT.ts (720-entry polar table)",
+    "newFiles": [
+      "src/boundaries/ShapeBoundary.ts",
+      "src/boundaries/DistortionLUT.ts"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "filesModified": ["src/renderer/FractalRenderer.ts", "src/main.ts"],
+  "summary": "Added getOptimalResolution() with devicePixelRatio capped at 2x, getMobileMaxIterations() that halves iterations on mobile. Updated resize handler. 57 tests pass."
+}

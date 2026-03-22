@@ -1,0 +1,15 @@
+{
+  "verified": true,
+  "testsPassed": 140,
+  "typeErrors": 0,
+  "buildSuccess": true,
+  "issues": [],
+  "details": {
+    "testFiles": "10 passed (10 total)",
+    "bundleSize": "476.16 KB (121.66 KB gzipped)",
+    "buildTime": "694ms",
+    "expectedMinTests": 92,
+    "actualTests": 140,
+    "verifyCommand": "npm run type-check && npm test && npm run build"
+  }
+}

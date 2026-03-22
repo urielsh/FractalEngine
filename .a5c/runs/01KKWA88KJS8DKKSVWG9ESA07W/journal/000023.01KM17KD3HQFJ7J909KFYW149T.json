@@ -1,0 +1,20 @@
+{
+  "type": "EFFECT_REQUESTED",
+  "recordedAt": "2026-03-18T19:43:43.729Z",
+  "data": {
+    "effectId": "01KM17KD3FV0708PNT8YQ5ERB9",
+    "invocationKey": "fractalengine/phase3-integration:S000012:responsive-controls",
+    "invocationHash": "6a5ebc845e6d131e31b297961ebcafb8ab0b2543c52ce42a32a35028477e0c96",
+    "stepId": "S000012",
+    "taskId": "responsive-controls",
+    "kind": "agent",
+    "label": "milestone-b",
+    "taskDefRef": "tasks/01KM17KD3FV0708PNT8YQ5ERB9/task.json",
+    "labels": [
+      "milestone-b",
+      "mobile",
+      "controls"
+    ]
+  },
+  "checksum": "9aec480f61478065846bf4c494285d0c748e84eb23fc5d57046819eefcd0211b"
+}

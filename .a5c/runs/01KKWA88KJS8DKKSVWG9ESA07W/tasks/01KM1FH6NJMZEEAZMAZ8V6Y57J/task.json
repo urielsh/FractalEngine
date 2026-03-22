@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "2026.01.tasks-v1",
+  "effectId": "01KM1FH6NJMZEEAZMAZ8V6Y57J",
+  "taskId": "__sdk.breakpoint",
+  "invocationKey": "fractalengine/phase3-integration:S000027:__sdk.breakpoint",
+  "stepId": "S000027",
+  "kind": "breakpoint",
+  "title": "breakpoint",
+  "metadata": {
+    "label": "breakpoint",
+    "payload": {
+      "context": {},
+      "question": "All 3 milestones complete. Quality scores: A=88, B=91, C=90. Final verdict: Approved for delivery. Approve for delivery?",
+      "title": "Final Delivery Review — FractalEngine Phase 3"
+    },
+    "requestedAt": "2026-03-18T22:02:20.210Z"
+  },
+  "inputs": {
+    "label": "breakpoint",
+    "payload": {
+      "context": {},
+      "question": "All 3 milestones complete. Quality scores: A=88, B=91, C=90. Final verdict: Approved for delivery. Approve for delivery?",
+      "title": "Final Delivery Review — FractalEngine Phase 3"
+    },
+    "requestedAt": "2026-03-18T22:02:20.210Z"
+  }
+}

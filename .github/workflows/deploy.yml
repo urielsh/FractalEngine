@@ -1,0 +1,72 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Cache node_modules
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-modules-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-modules-
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Type check
+        run: npm run type-check
+
+      - name: Run tests
+        run: npm test
+
+      - name: Build
+        run: npm run build
+
+      - name: Remove sourcemaps
+        run: find dist/ -name '*.map' -delete
+
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.OCI_SSH_PRIVATE_KEY }}
+          known_hosts: unnecessary
+
+      - name: Add known hosts
+        run: ssh-keyscan -H ${{ secrets.OCI_VM_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Deploy to OCI VM
+        run: |
+          rsync -avz --delete \
+            dist/ \
+            ${{ secrets.OCI_VM_USER }}@${{ secrets.OCI_VM_HOST }}:/var/www/fractalengine/
+
+      - name: Health check
+        run: |
+          HTTP_STATUS=$(curl -sk -o /dev/null -w "%{http_code}" \
+            --max-time 10 \
+            https://${{ secrets.OCI_VM_HOST }}/)
+          if [ "$HTTP_STATUS" -ne 200 ]; then
+            echo "Health check failed with status $HTTP_STATUS"
+            exit 1
+          fi
+          echo "Deployment verified: HTTP $HTTP_STATUS"

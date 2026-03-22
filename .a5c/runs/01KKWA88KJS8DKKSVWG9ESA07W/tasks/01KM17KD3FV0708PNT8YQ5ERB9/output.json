@@ -1,0 +1,4 @@
+{
+  "filesModified": ["index.html", "src/ui/ControlsPanel.ts"],
+  "summary": "WCAG-compliant touch targets (44px), full-width buttons on mobile (48px), enlarged slider thumbs, drag handle for bottom drawer, CSS grid fluid layout, increased font sizes."
+}

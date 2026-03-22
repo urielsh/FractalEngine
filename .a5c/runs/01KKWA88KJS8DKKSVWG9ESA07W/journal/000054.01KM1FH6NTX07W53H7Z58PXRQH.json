@@ -1,0 +1,18 @@
+{
+  "type": "EFFECT_REQUESTED",
+  "recordedAt": "2026-03-18T22:02:20.218Z",
+  "data": {
+    "effectId": "01KM1FH6NJMZEEAZMAZ8V6Y57J",
+    "invocationKey": "fractalengine/phase3-integration:S000027:__sdk.breakpoint",
+    "invocationHash": "261a7da4d6a7eb024b90605cb0f8135ed6a28160266ff0e581e6953a1f76eaa6",
+    "stepId": "S000027",
+    "taskId": "__sdk.breakpoint",
+    "kind": "breakpoint",
+    "label": "breakpoint",
+    "taskDefRef": "tasks/01KM1FH6NJMZEEAZMAZ8V6Y57J/task.json",
+    "labels": [
+      "breakpoint"
+    ]
+  },
+  "checksum": "d82c10c1869b44864efeac686d902c81832d52e6a41369419400015aa5a1caa5"
+}
